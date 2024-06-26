@@ -1,0 +1,76 @@
+body {
+    background-color: beige;
+}
+
+.botones{
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    margin: 20px;
+}
+
+#noclick:disabled {
+    background-color: black;
+}
+
+button:first-child {
+    background-color: gray;
+}
+
+button:last-child {
+    background-color: green;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    color: yellow;
+    width: 100px;
+}
+
+.segundaparte {
+    margin-bottom: 1000px;
+}
+
+#box {
+    background-color: bisque;
+    width: 400px;
+} 
+
+#box:empty {
+    background-color: lime;
+  }
+
+input[type="text"]:disabled {
+    background: gray;
+}
+
+input[type="text"]:enabled {
+    color:blueviolet;
+}
+
+input:focus {
+    background: red;
+    color: white;
+}
+
+#sucorreo:invalid {
+    background: black;
+    color: white;
+}
+
+#sucorreo:valid {
+    background: green;
+    color: white;
+}
+
+.formulario p:target {
+    background-color: white;
+}
+
